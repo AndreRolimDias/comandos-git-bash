@@ -1,0 +1,65 @@
+body {
+  background-color: #000;
+}
+.background_image-logo-wite {
+  width: 20%;
+  height: 20%;
+  margin: 0rem 0rem 0rem 20rem;
+}
+.background_image {
+  width: 20%;
+  margin: -0.8rem 0rem 0rem 2rem;
+}
+.tabela001 {
+  display: flex;
+}
+
+.tabela1 {
+  color: #fff;
+  height: 1.3rem;
+  width: 30rem;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: solid;
+  border-color: #fff;
+  background-color: #000;
+  margin: 1rem 0 1rem 1rem;
+  padding: 0.08rem;
+}
+
+.btn_input {
+  width: 23.5rem;
+
+  color: #fff;
+  height: 1.34rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  border: solid;
+  border-color: #fff;
+  background-color: #000;
+  margin: 1rem 0 0 0.3rem;
+}
+
+.btn {
+  cursor: pointer;
+  color: #000;
+  font-size: 1rem;
+  height: 1.7rem;
+  background-color: #fff;
+  border: 0.1rem solid #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+  margin: 1rem 0 0 -4.9rem;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  border-color: #fff;
+  background-color: #000;
+  color: #fff;
+}
