@@ -10,27 +10,234 @@
   </head>
   <body>
     <img
-      class="background_image-logo-wite"
-      src="./image/Git-Logo-White.png"
-      alt="logo_white"
+      class="background_image-logo"
+      src="./image/logo git red.png"
+      alt="logo"
     />
-    <img
-      class="background_image"
-      src="./image/pngwing.com.png"
-      alt="logo git"
-    />
-
-    <div class="tabela001">
-      <section class="tabela1">criar um novo repositório</section>
-      <input class="btn_input" id="texto" value="git init" />
-      <button class="btn" onclick="copiar()" id="botaoCopiar">copiar</button>
+    <img class="background_image" src="./image/git texto.png" alt="logo git" />
+    <div class="texto_home">
+      <h2>Descrição</h2>
+      <small>Mais Usados</small>
+      <h3>Comandos</h3>
     </div>
 
-    <div class="tabela001">
-      <section class="tabela1">clonar um repositório</section>
-      <input class="btn_input" id="texto" value="git init" />
-      <button class="btn" onclick="copiar()" id="git clone">copiar</button>
-    </div>
+    <section class="container">
+      <div class="tabela">
+        <section class="tabela1">criar um novo repositório</section>
+        <input class="btn_input" id="texto" value="git init" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">mostrar o status do repositório</section>
+        <input class="btn_input" id="texto" value="git status" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">
+          Adicionar todos os arquivos/diretórios
+        </section>
+        <input class="btn_input" id="texto" value="git add ." readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">Comitar informando mensagem</section>
+        <input class="btn_input" id="texto" value="git commit -m" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela_G">
+          O primeiro push de um repositório deve conter o nome do repositório
+          remoto e o branch
+        </section>
+        <input
+          class="btn_input_G"
+          id="texto"
+          value="git push -u origin master"
+          readonly
+        />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela_G">
+          enviar conteúdo de repositório local para repositório remoto já
+          existente
+        </section>
+        <input class="btn_input_G" id="texto" value="git push" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">Atualizar os arquivos no branch atual</section>
+        <input class="btn_input" id="texto" value="git pull" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">alternar para uma branch</section>
+        <input class="btn_input" id="texto" value="git checkout" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">cria uma nova branch e muda para ela</section>
+        <input
+          class="btn_input"
+          id="texto"
+          value="checkout -b [nome da branch]"
+          readonly
+        />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">clonar um repositório</section>
+        <input class="btn_input" id="texto" value="git clone" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">listar todas branchs no repositório</section>
+        <input class="btn_input" id="texto" value="git branch" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">deletar uma branch</section>
+        <input class="btn_input" id="texto" value="git branch -d" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="container_2">
+      <div class="tabela">
+        <section class="tabela1">listar o histórico de commits</section>
+        <input class="btn_input" id="texto" value="git log" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">exibir o conteúdo e metadados</section>
+        <input class="btn_input" id="texto" value="git show" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">mesclar uma branch especifica</section>
+        <input class="btn_input" id="texto" value="git merge" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela_G">
+          redefinir a preparação dos arquivos para o commit mais recente
+        </section>
+        <input class="btn_input_G" id="texto" value="git reset" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">conectar com um repositório remoto</section>
+        <input class="btn_input" id="texto" value="git remote add" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">definir o nome a ser usado como autor</section>
+        <input
+          class="btn_input"
+          id="texto"
+          value="git config --global user.name"
+          readonly
+        />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">desfazer as alterações</section>
+        <input
+          class="btn_input"
+          id="texto"
+          value="git revert [arquivo]"
+          readonly
+        />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">mastrar arquivos nao rastreados</section>
+        <input class="btn_input" id="texto" value="git clean" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela1">substituir o último commit</section>
+        <input
+          class="btn_input"
+          id="texto"
+          value="git commit --amend"
+          readonly
+        />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+
+      <div class="tabela">
+        <section class="tabela_G">
+          mostrar a diferença entre a cópia local e o índice sincronizado
+        </section>
+        <input class="btn_input_G" id="texto" value="git diff" readonly />
+        <button class="btn" onclick="copiar()" id="botaoCopiar">
+          <i class="fa-solid fa-clone"></i>
+        </button>
+      </div>
+    </section>
+
     <script src="./javascript/script.js"></script>
   </body>
 </html>
