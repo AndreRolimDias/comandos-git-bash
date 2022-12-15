@@ -8,6 +8,12 @@ body {
   height: 20%;
   margin: 0rem 0rem 0rem 20rem;
 }
+@media screen and (min-width: 1920px) {
+  .background_image-logo {
+    margin: 0rem 0rem 0rem 45rem;
+  }
+}
+
 .background_image {
   width: 20%;
   margin: -0.8rem 0rem 3rem 2rem;
@@ -26,10 +32,21 @@ body {
   font-size: 1.2rem;
   margin: 4rem -29rem 0 24rem;
 }
+@media screen and (min-width: 1920px) {
+  .texto_home small {
+    margin: 4rem -29rem 0 60rem;
+    font-size: 2rem;
+  }
+}
 
 .texto_home h3 {
   font-size: 3.5rem;
-  margin: 0 0 0 39rem;
+  margin: 0 0 0 44rem;
+}
+@media screen and (min-width: 1920px) {
+  .texto_home h3 {
+    margin: 0 0 0 84rem;
+  }
 }
 
 .container {
@@ -62,6 +79,12 @@ body {
   padding: 0.5rem;
 }
 
+@media screen and (min-width: 1920px) {
+  .tabela1 {
+    width: 82%;
+  }
+}
+
 .tabela_G {
   color: #3986a8;
   height: 2.4rem;
@@ -75,6 +98,12 @@ body {
   background-color: #e9e8e0;
   margin: 1rem 0 1rem 1rem;
   padding: 0.5rem;
+}
+
+@media screen and (min-width: 1920px) {
+  .tabela_G {
+    width: 82%;
+  }
 }
 
 .btn_input {
