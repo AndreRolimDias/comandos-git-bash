@@ -39,9 +39,7 @@
       </div>
 
       <div class="tabela">
-        <section class="tabela1">
-          Adicionar todos os arquivos/diretórios
-        </section>
+        <section class="tabela1">Adicionar todos os diretórios</section>
         <input class="btn_input" id="texto" value="git add ." readonly />
         <button class="btn" onclick="copiar()" id="botaoCopiar">
           <i class="fa-solid fa-clone"></i>
@@ -58,8 +56,8 @@
 
       <div class="tabela">
         <section class="tabela_G">
-          O primeiro push de um repositório deve conter o nome do repositório
-          remoto e o branch
+          O primeiro push de um repositório deve conter o nome<br />
+          do repositório remoto e o branch
         </section>
         <input
           class="btn_input_G"
@@ -74,8 +72,8 @@
 
       <div class="tabela">
         <section class="tabela_G">
-          enviar conteúdo de repositório local para repositório remoto já
-          existente
+          enviar conteúdo de repositório local para<br />
+          repositório remoto já existente
         </section>
         <input class="btn_input_G" id="texto" value="git push" readonly />
         <button class="btn" onclick="copiar()" id="botaoCopiar">
@@ -100,13 +98,8 @@
       </div>
 
       <div class="tabela">
-        <section class="tabela1">cria uma nova branch e muda para ela</section>
-        <input
-          class="btn_input"
-          id="texto"
-          value="checkout -b [nome da branch]"
-          readonly
-        />
+        <section class="tabela1">cria nova branch e muda para ela</section>
+        <input class="btn_input" id="texto" value="checkout -b" readonly />
         <button class="btn" onclick="copiar()" id="botaoCopiar">
           <i class="fa-solid fa-clone"></i>
         </button>
@@ -164,7 +157,8 @@
 
       <div class="tabela">
         <section class="tabela_G">
-          redefinir a preparação dos arquivos para o commit mais recente
+          redefinir a preparação dos arquivos para<br />
+          o commit mais recente
         </section>
         <input class="btn_input_G" id="texto" value="git reset" readonly />
         <button class="btn" onclick="copiar()" id="botaoCopiar">
@@ -181,9 +175,11 @@
       </div>
 
       <div class="tabela">
-        <section class="tabela1">definir o nome a ser usado como autor</section>
+        <section class="tabela_G">
+          definir o nome a ser usado como autor
+        </section>
         <input
-          class="btn_input"
+          class="btn_input_G"
           id="texto"
           value="git config --global user.name"
           readonly
@@ -229,10 +225,11 @@
 
       <div class="tabela">
         <section class="tabela_G">
-          mostrar a diferença entre a cópia local e o índice sincronizado
+          mostrar a diferença entre a cópia local<br />
+          e o índice sincronizado
         </section>
-        <input class="btn_input_G" id="texto" value="git diff" readonly />
-        <button class="btn" onclick="copiar()" id="botaoCopiar">
+        <input class="btn_input_footer" id="texto" value="git diff" readonly />
+        <button class="btn_footer" onclick="copiar()" id="botaoCopiar">
           <i class="fa-solid fa-clone"></i>
         </button>
       </div>
