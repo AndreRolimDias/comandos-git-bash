@@ -30,7 +30,7 @@ body {
 }
 
 .texto_home h2 {
-  font-size: 1rem;
+  font-size: 0.7rem;
   margin: 1rem 0 0 0;
 }
 @media screen and (min-width: 700px) {
@@ -67,8 +67,8 @@ body {
 }
 
 .texto_home h3 {
-  font-size: 1rem;
-  margin: 1rem 0 0 4.5rem;
+  font-size: 0.7rem;
+  margin: 1rem 0 0 4rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -87,7 +87,7 @@ body {
 
 .container {
   background-color: #fff;
-  width: 15.8rem;
+  width: 14.5rem;
   border: solid #e15923;
   padding: 0 4rem 0 0rem;
   margin: 0;
@@ -114,7 +114,7 @@ body {
 
 .container_2 {
   background-color: #fff;
-  width: 15.8rem;
+  width: 14.5rem;
   border: solid #e9e8e0;
   padding: 0 4rem 0 0rem;
   margin: 0;
