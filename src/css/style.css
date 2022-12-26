@@ -5,7 +5,7 @@ body {
 }
 .background_image-logo {
   width: 15%;
-  margin: 0 0 0 9rem;
+  margin: 0 0 0 7.5rem;
 }
 @media screen and (min-width: 700px) {
   .background_image-logo {
@@ -21,7 +21,7 @@ body {
 
 .background_image {
   width: 15%;
-  margin: 0px 0 16px 0rem;
+  margin: 0 0 1rem 0;
 }
 
 .texto_home {
@@ -31,7 +31,7 @@ body {
 
 .texto_home h2 {
   font-size: 1rem;
-  margin: 1rem 0 0 1rem;
+  margin: 1rem 0 0 0;
 }
 @media screen and (min-width: 700px) {
   .texto_home h2 {
@@ -50,7 +50,7 @@ body {
 .texto_home small {
   color: #4d443c;
   font-size: 0.7rem;
-  margin: 1rem 0 0 6rem;
+  margin: 1rem 0 0 5rem;
 }
 @media screen and (min-width: 700px) {
   .texto_home small {
@@ -68,7 +68,7 @@ body {
 
 .texto_home h3 {
   font-size: 1rem;
-  margin: 1rem 0 0 4.4rem;
+  margin: 1rem 0 0 4.5rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -87,16 +87,57 @@ body {
 
 .container {
   background-color: #fff;
+  width: 15.8rem;
   border: solid #e15923;
-  margin: 0 1rem;
+  padding: 0 4rem 0 0rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 97%;
+    background-color: #fff;
+    border: solid #e15923;
+    margin: 0 1rem;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .container {
+    width: 100%;
+    background-color: #fff;
+    border: solid #e15923;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .container_2 {
   background-color: #fff;
+  width: 15.8rem;
   border: solid #e9e8e0;
-  margin: 0 1rem;
+  padding: 0 4rem 0 0rem;
+  margin: 0;
 }
 
+@media screen and (min-width: 700px) {
+  .container_2 {
+    width: 97%;
+    background-color: #fff;
+    border: solid #e9e8e0;
+    margin: 0 1rem;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .container_2 {
+    width: 100%;
+    background-color: #fff;
+    border: solid #e9e8e0;
+    padding: 0;
+    margin: 0;
+  }
+}
 .tabela3 {
   border: solid 0.01rem #4d443c;
   margin: 0;
@@ -110,17 +151,18 @@ body {
 
 .tabela1 {
   color: #3986a8;
+  width: 100%;
   height: 1.3rem;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   line-height: 0.8rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   border: solid;
   border-color: #e9e8e0;
   background-color: #e9e8e0;
-  margin: 1rem 1rem 0.3rem 1rem;
+  margin: 1rem 0 0.3rem 1.2rem;
   padding: 0.5rem;
 }
 @media screen and (min-width: 700px) {
@@ -173,8 +215,9 @@ body {
 
 .tabela_G {
   color: #3986a8;
+  width: 100%;
   font-size: 0.5rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   line-height: 0.8rem;
   font-weight: 700;
   text-align: center;
@@ -182,7 +225,7 @@ body {
   border: solid;
   border-color: #e9e8e0;
   background-color: #e9e8e0;
-  margin: 1rem 1rem 0.3rem 1rem;
+  margin: 1rem 1rem 0.3rem 1.2rem;
   padding: 0.5rem;
 }
 
@@ -232,7 +275,7 @@ body {
   .tabela_G {
     color: #3986a8;
     height: 2.4rem;
-    width: 82%rem;
+    width: 82%;
     font-size: 1.1rem;
     letter-spacing: 0.3rem;
     font-weight: 700;
@@ -248,15 +291,15 @@ body {
 
 .btn_input {
   color: #e15923;
-  width: 19.6rem;
-  font-size: 1rem;
+  width: 100%;
+  font-size: 0.7rem;
   text-align: center;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.03rem;
   font-weight: 700;
   border: solid;
   border-color: #e9e8e0;
   background-color: #e9e8e0;
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 1.2rem;
   padding: 0.5rem;
 }
 
@@ -294,15 +337,15 @@ body {
 
 .btn_input_G {
   color: #e15923;
-  width: 19.6rem;
+  width: 100%;
   font-size: 0.7rem;
   text-align: center;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.03rem;
   font-weight: 700;
   border: solid;
   border-color: #e9e8e0;
   background-color: #e9e8e0;
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 1.2rem;
   padding: 0.5rem;
 }
 
@@ -339,7 +382,7 @@ body {
 }
 
 .btn_input_footer {
-  width: 19.6rem;
+  width: 100%;
   color: #e15923;
   height: 2.4rem;
   font-size: 1rem;
@@ -349,7 +392,7 @@ body {
   border: solid;
   border-color: #e9e8e0;
   background-color: #e9e8e0;
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1.2rem;
   padding: 0.5rem;
 }
 
@@ -385,7 +428,6 @@ body {
     padding: 0.5rem;
   }
 }
-
 .btn {
   cursor: pointer;
   color: #4d443c;
@@ -393,7 +435,19 @@ body {
   background: none;
   border: unset;
   transition: 1s all ease;
-  margin: -0.5rem 0 0 -3rem;
+  margin: 0 0px 0px -5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .btn {
+    cursor: pointer;
+    color: #4d443c;
+    font-size: 1.5rem;
+    background: none;
+    border: unset;
+    transition: 1s all ease;
+    margin: -0.5rem 0 0 -3rem;
+  }
 }
 
 .btn_footer {
