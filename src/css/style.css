@@ -1,89 +1,72 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'montserrat', sans-serif;
+}
+
 body {
   background-color: #e9e8e0;
 }
-.background_image-logo {
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecalho img {
   width: 15%;
-  margin: 0 0 0 7.5rem;
+  
 }
-@media screen and (min-width: 700px) {
-  .background_image-logo {
-    margin: 0rem auto 0rem 28rem;
-  }
+.cabecalho-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabecalho-texto h2, h3 {
+  color: #4d443c;
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+.cabecalho-texto small {
+  color: #4d443c;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 30px 30% 0 30%;
+}
+.cabecalho-texto h3 {
+
 }
 
-@media screen and (min-width: 2560px) {
-  .background_image-logo {
-    margin: 0rem 0rem 0rem 45rem;
-  }
-}
 
-.background_image {
-  width: 15%;
-  margin: 0 0 1rem 0;
-}
-
-.texto_home {
+..texto_home {
   display: flex;
   color: #4d443c;
 }
 
-.texto_home h2 {
+..texto_home h2 {
   font-size: 0.7rem;
   margin: 1rem 0 0 0;
 }
-@media screen and (min-width: 700px) {
-  .texto_home h2 {
-    font-size: 3rem;
-    margin: 0 0 0 1rem;
-  }
-}
 
-@media screen and (min-width: 2560px) {
-  .texto_home h2 {
-    font-size: 3rem;
-    margin: 0 0 0 1rem;
-  }
-}
-
-.texto_home small {
+..texto_home small {
   color: #4d443c;
   font-size: 0.7rem;
   margin: 1rem 0 0 5rem;
 }
-@media screen and (min-width: 700px) {
-  .texto_home small {
-    margin: 4rem -29rem 0 22.5rem;
-    font-size: 2rem;
-  }
-}
 
-@media screen and (min-width: 2560px) {
-  .texto_home small {
-    margin: 4rem -29rem 0 60rem;
-    font-size: 2rem;
-  }
-}
-
-.texto_home h3 {
+..texto_home h3 {
+  
   font-size: 0.7rem;
   margin: 1rem 0 0 4rem;
 }
 
-@media screen and (min-width: 700px) {
-  .texto_home h3 {
-    font-size: 3rem;
-    margin: 0 0 0 49.5rem;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  .texto_home h3 {
-    font-size: 3rem;
-    margin: 0 0 0 98rem;
-  }
-}
 
 .container {
   background-color: #fff;
