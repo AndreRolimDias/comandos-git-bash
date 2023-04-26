@@ -1,0 +1,59 @@
+
+@media (max-width: 1200px) {
+    .container {
+        width: auto; 
+    }
+    
+    }
+
+
+    .tabela1,
+    .tabela_G {
+        font-size: 12px;   
+    }
+    .btn_input,
+    .btn_input_G {
+        font-size: 12px;
+    }
+
+
+
+@media (max-width: 840px) {
+
+    .cabecalho-texto h2, h3 {
+        font-size: 13.5px;
+    
+    }
+    .tabela1,
+    .tabela_G {
+        font-size: 8px;   
+    }
+    .btn_input,
+    .btn_input_G,
+    .btn_input_footer {
+        width: 10rem;
+        display: unset;
+        font-size: 8px;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .cabecalho-texto h2, h3 {
+        font-size: 11px;
+    
+    }
+    
+    
+    .tabela1,
+    .tabela_G {
+        font-size: 6px;   
+    }
+    .btn_input,
+    .btn_input_G {
+        width: 10rem;
+        display: unset;
+        font-size: 5px;
+    }
+}
